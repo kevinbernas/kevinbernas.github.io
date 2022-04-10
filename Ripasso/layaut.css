@@ -1,0 +1,66 @@
+:root {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+div.box {
+    background-color: red;
+    width: 1000px;
+    height: 500px;
+
+}
+
+section.section-1 {
+    border: black solid 3px;
+    background-color: green;
+    width: calc(70% - (5px * 2));
+    height: calc(245px - 2.5px);
+    float: left;
+  margin: 5px 0 5px 5px ;
+}
+
+section.section-2 {
+    border: black solid 3px;
+    background-color: blue;
+    width: calc(70% - (5px * 2));
+    height: calc(245px - 2.5px);
+    float: left;
+    margin: 0 0 0 5px;
+
+}
+
+p.aside-1 {
+    border: black solid 3px;
+    width: calc(30% - 5px);
+    height: calc(245px - 2.5px);
+    background-color: white;
+    float: right;
+    padding: 10px;
+   margin: 5px 5px 0 0 ;
+}
+
+p.aside-2 {
+    border: black solid 3px;
+    width: calc(30% - 5px);
+    height: calc(245px - 2.5px);
+    background-color: white;
+    float: right;
+    padding: 10px;
+    margin: 0 5px 0 0;
+
+}
+
+
+aside {
+    padding: 10px;
+}
+
+
+
+
+
+
+
