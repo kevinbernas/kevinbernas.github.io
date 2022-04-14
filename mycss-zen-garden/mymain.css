@@ -1,0 +1,27 @@
+body {
+    margin: 20px;
+}
+
+header {
+    background-image: url(lotus-flower-5151674_1280.jpg);
+    width: 1280px;
+    height: 853px;
+    margin: 0 auto;
+    position: static;
+}
+
+h1 {
+    color: #7775BF;
+
+}
+
+h2 {
+    color: #F27289;
+}
+
+ div #style1 {
+    position: relative;
+    top: 10%;
+    left: 100px;
+     font-family: "Grape+Nuts", swap;
+}
