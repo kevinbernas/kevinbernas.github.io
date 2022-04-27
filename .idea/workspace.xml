@@ -1,30 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80cb7dc4-e9b4-4555-8673-f8a4f11620c4" name="Changes" comment="ripasso1">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kevinbernas.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/totti-11551050973fbfcyyazgb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlexLayoutstyle/FlexLayout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlexLayoutstyle/flexstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FloatedLayoutStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FloatedLayoutstyle/Floated Layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ripasso/Francesco Totti.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ripasso/RIPASSO.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ripasso/img+gradiente.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ripasso/img+gradiente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ripasso/myripasso.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-zen-garden-2/Conenitori.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mycss-zen-garden/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mycss-zen-garden/loto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mycss-zen-garden/lotus-flower-5151674_1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mycss-zen-garden/mymain.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mycss-zen-garden/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Box Bansky/BoxBansky.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-zen-garden-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-zen-garden-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css-zen-garden-2/layout-primitivo.html" beforeDir="false" afterPath="$PROJECT_DIR$/css-zen-garden-2/layout-primitivo.html" afterDir="false" />
+    <list default="true" id="80cb7dc4-e9b4-4555-8673-f8a4f11620c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/APPLE/Apple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APPLE/iphone-13-pro-2022-gallery-5-thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APPLE/mac__bfa414svyuc2_og.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_470662518_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_476112891_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_476155062_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_476207570_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_476250947_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_476477617_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_476736381_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_477707695_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_478290330_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/AdobeStock_478460333_Preview.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/GridImplicit.HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/GridLauyout_nostro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/GridLayaut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/GridLayout_nostro.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/GridNameArea.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GridLayaut/gridlayout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ripasso/esempioflex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ripasso/myfloatedlayout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ripasso/myfloatedlayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ripasso/styleesempioflex.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexLayoutstyle/FlexLayout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlexLayoutstyle/flexstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/APPLE/Apple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/esample/esample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycss-zen-garden/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mycss-zen-garden/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycss-zen-garden/mymain.css" beforeDir="false" afterPath="$PROJECT_DIR$/mycss-zen-garden/mymain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycss-zen-garden/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mycss-zen-garden/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/progect1.html/project.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/progect1.html/project1.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +101,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Code\kevinbernas.github.io\GridLayaut" />
+      <recent name="C:\Code\kevinbernas.github.io\APPLE" />
+      <recent name="C:\Code\kevinbernas.github.io\APPLE.IMac" />
       <recent name="C:\Code\kevinbernas.github.io\mycss-zen-garden" />
       <recent name="C:\Code\kevinbernas.github.io\Assets" />
-      <recent name="C:\Code\kevinbernas.github.io\Ripasso" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -106,7 +119,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1646410539523</updated>
-      <workItem from="1646410540648" duration="107103000" />
+      <workItem from="1646410540648" duration="119340000" />
+      <workItem from="1650381099396" duration="6000" />
+      <workItem from="1650460278689" duration="10979000" />
+      <workItem from="1650640373405" duration="52124000" />
     </task>
     <task id="LOCAL-00001" summary="ripasso1">
       <created>1649581052815</created>
@@ -122,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649582532354</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ripasso1">
+      <created>1649943174294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649943174294</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

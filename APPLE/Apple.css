@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+::after, ::before{
+    box-sizing: inherit;
+}
+h1 {
+    text-align: center;
+}
+div.header{
+    border: 1px black solid;
+    display: flex;
+    border-radius: 5px;
+    background: linear-gradient(#9b9b9b, #3B3B3B);
+    color:#DEDEDE;
+}
+div.header:nth-child(even), div.header:nth-child(odd){
+    padding: 10px;
+    flex-basis: 10%;
+    justify-content: space-between;
+}
+div.container2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+div.IMac{
+    background-color: black;
+}
+img.img-mac{
+    float: right;
+}
+
+
+div.IMac:nth-child(n-3){
+text-align: center;
+    color: white;
+
+}
+div.IPhone:nth-child(n-3){
+    text-align: center;
+    color: black;
+    margin: 0;
+    display: block;
+    background-color: #f8f7f7;
+}
+div.IPhone{
+    display: flex;
+    flex: 1;
+    height: 400px;
+}
