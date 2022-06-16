@@ -1,0 +1,44 @@
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    color: aqua;
+    background-color: chartreuse;
+    background-image: url(../Assets/totti.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-size: cover; per attacccare un img sulla pagine che se si tira su e giu segua */
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+p {
+    color: initial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /*font-size: unset;*/
+    font-weight: unset;
+}
+
+header {
+    background-image: url(../Assets/totti.jpg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-clip: padding-box;
+    background-color: orange;
+    margin: 60px;
+    border: dotted 5px red;
+    border-radius: 50%;
+    padding: 40px;
+    width: 500px;
+    height: 500px;
+    border-image-repeat: space;
+
+}
+
+abbr {
+    text-decoration: initial;
+}

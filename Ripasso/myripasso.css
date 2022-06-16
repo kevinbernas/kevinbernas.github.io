@@ -1,0 +1,48 @@
+.table2{
+    border: solid black;
+    border-width: 5px 10px 3px 1px;
+
+}
+h1 {
+    text-align: center;
+    color: red;
+    size: 24px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 50%;
+}
+*{
+    font-family:"Hurricane", monospace;
+}
+img {
+    float: left;
+}
+ul, ol, dl, table{
+    color: blue;
+}
+fieldset{
+    width: 1000px;
+    height: 100px;
+    background-color: purple;
+    border-radius:20%/20% ;
+    box-sizing: border-box;
+}
+legend{
+    color: yellow;
+    position: absolute;
+    float: inside;
+}
+label{
+    background-position-x: 120px;
+}
+.container >div{
+    border: 1px solid red;
+    float: left;
+}
+
+#inner-10{
+    width: 70%;
+}
+#inner-11{
+    width: 20%;
+}

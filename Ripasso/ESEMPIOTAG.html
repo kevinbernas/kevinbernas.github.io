@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EsempioTag</title>
+    <link rel="stylesheet" href="RIPASSO.css">
+</head>
+<body>
+<h1>Esempio per i Tag</h1>
+<p> p è l'elemento per indicare i paragrafi</p>
+<br><!--BR è l'elemento break line per creare una linea vuota nel testo-->
+<p> possiamo di conseguenza scrivere paragrafi diversi grazie a p</p>
+<hr> <!--l'elemento hr invece crea una vera e proppria linea-->
+<strong>quando una parte del testo è importante si usa il tag strong</strong>
+<b>B è una variante di strong molti browser lo reinderizzanio in grassetto</b>
+<p><em>EM enfatizza il testo contenuto in italico </em></p>
+<p><i>I uguale a EM prima della sua introduzione veniva usato I</i></p>
+<p>
+<pre>PRE permette di rappresentare il testo esattamente come è rappresentato nel codice sorgente</pre>
+</p>
+<p><code>CODE viene utilizzato per formattare una porzione di testo come codice di programmazione per informare
+    visivamente il lettore di cosa si tratta</code></p>
+<p>
+    <mark>MARK si usa per evidenziare il testo</mark>
+</p>
+<p><small>SMALL si usa per rappresentare il testo piu piccolo</small></p>
+<p>
+    <del>DEL rappresentano il testo “cancellato”</del>
+</p>
+<p>
+    <ins>INS può essere usato per suggerire che il testo
+        sostituisce quello cancellato
+    </ins>
+</p>
+<p><sub>h2o</sub></p> <!--(pedice) usato per rappresentare testo in piccolo in basso come nelle
+formule chimiche: O2-->
+<p>
+<blockquote> per riportare citazioni</blockquote>
+</p>
+<p><cite>utilizzato riportare riferimenti di un autore o di un testo
+</cite></p>
+<p><u> usato per rappresentare il testo “sottolineato” (per questo è più comune
+    utilizzare CSS)</u></p>
+<p><q>permette di rappresentare il testo tra virgolette</q></p>
+
+<hr>
+<a href="https://www.asroma.com/it/" target="_blank">Cliccami</a>
+<!--<a> è il tag, o elemento, che si utilizza per “linkare” un altro contenuto Web
+- href è l’attributo in cui si specifica l’indirizzo (URL) della risorsa linkata
+- target, specifica come il browser deve aprire il nuovo contenuto
+- _self (default), porta il tab corrente a visualizzare il nuovo contenuto
+- _blank, apre una nuova finestra del browser
+- _parent apre il contenuto nel frame superiore (da usare con i frame)
+- _top apre il contenuto al di sopra qualsiasi frame in cui può essere innestato (da usare con i frame)
+Il browser rappresenta il link, come al solito visualizzando il testo contenuto
+nell’elemento html, sottolineato e colorato di blu.-->
+
+<hr>
+<h3 id="Canto 1">Canto 1</h3>
+<!--- con la terminologia “Ancore HTML” ci si riferisce ai link che si possono creare all’interno
+della stessa pagina web
+- per creare un link interno ci dobbiamo servire dell’attributo id*
+- L’attributo id permette di specificare un identificativo per l’elemento a cui viene applicato.-->
+<br>
+<a href="#Canto1" Canto 1></a>
+<!--- Specificando l’id nell’attributo href del nostro link interno potremmo creare un link interno
+oppure “un’ancora html”.-->
+<br>
+<address><a href="mailto:kevin15668@gmail.com">kevin15668@gmail.com</a>
+    <!--- L’elemento <a> può essere utilizzato anche per impostare l’invio di una email.-->
+    <br>
+    <a href="tel:+393457694866">+393457694866</a></address>
+<!--L’elemento <a> può essere utilizzato anche per scatenare una telefonata.
+    Soprattutto se il client sta navigando il contenuto web da uno smartphone.-->
+<!-- L’elemento <address> può essere utilizzato come contenitore di tutte le informazioni
+    riguardante i contatti, come l’indirizzo fisico, l’email, e il numero di telefono.-->
+<hr>
+<iframe width="453" height="240" src="https://www.youtube.com/embed/87U5V2ZJTbo" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+<!--- <iframe> è l’elemento che permette di visualizzare il contenuto di una pagina web all’interno
+di un’altra pagina web (embed).
+- Gli attributi da usare con iframe più frequentemente usati sono:
+- src (specifica il contenuto)
+- width (larghezza)
+- height (altezza)
+- loading (eager, caricato subito con il contenuto principale, lazy caricato dopo)
+- scrolling (auto, yes, no)-->
+<br>
+<img src="../Assets/totti.jpg" alt="picture">
+<!--<img> è l’elemento html utilizzato per aggiungere immagini al nostro contenuto web.
+- L’immagine può essere referenziata, come per i link, con percorso relativo, oppure
+assoluto.
+- Le tipologie di immagine sono: JPG, PNG, GIF, SVG
+- L’attributo “alt” definisce del testo alternativo, che verrà utilizzato in quei contesti in
+cui l’immagine non può essere visualizzata.-->
+<hr>
+<ul>
+    <li>
+        primo
+    </li>
+    <li>
+        secondo
+    </li>
+    <li>
+        terzo
+    </li>
+</ul>
+<ol>
+    <li>
+        primo
+    </li>
+    <li>
+        secondo
+    </li>
+    <li>
+        terzo
+    </li>
+</ol>
+<!--- <ul> è l’elemento utilizzato per impostare una “unordered” list, cioè una lista semplice, che presenta per ogni elemento un pallino/trattino
+- Le <ul> possono modificare il segno di spunta del list item (il pallino) attraverso l’attributo “style”, in cui inserire la regola CSS list-style-type-->
+<!--- <ol> è l’elemento utilizzato per impostare una “ordered” list, cioè una lista ordinata, che presenta per ogni elemento un numero d’ordine
+- le <ol> possono modificare il tipo di counter (non solo numeri, ma anche lettere, numeri romani ecc..) attraverso l’attributo type
+- <li> è il tag da utilizzare per ogni elemento nella lista-->
+<br>
+<dl>
+    <dt>Il primo</dt>
+    <dd>ciao sono il primo</dd>
+    <dt> Il secondo</dt>
+    <dd>ciao sono il secondo</dd>
+</dl>
+<!--- <dl> è l’elemento utilizzato per impostare una “detailed” list, cioè una lista semplice, che presenta
+per ogni elemento un pallino/trattino
+- Ogni elemento nella lista dispone di <dt> (description title) e di multipli <dd> (description definition)-->
+<br>
+<ul>
+    <li>
+        First item
+        <ol type="a">
+            <li>First item a</li>
+            <li>First item b</li>
+            <li>First item c</li>
+        </ol>
+    </li>
+    <li>Second item</li>
+    <li>Third item</li>
+</ul>
+<!--- E’ possibile definire liste anche all’interno di un singolo <li> list item.
+- Sono le cosiddette “nested lists”-->
+<hr>
+
+<table class="table1">
+    <tr>
+        <th>th1</th>
+        <th>th2</th>
+        <th>th3</th>
+    </tr>
+    <tr>
+        <td>td1</td>
+        <td>td2</td>
+        <td>td3</td>
+    </tr>
+    <tr>
+        <td>td1</td>
+        <td>td2</td>
+        <td>td3</td>
+    </tr>
+    <tr>
+        <td>td1</td>
+        <td>td2</td>
+        <td>td3</td>
+    </tr>
+</table>
+<!--- L’elemento <table> si usa per definire
+le tabelle in HTML
+- L’elemento <tr> si utilizza all’interno di
+<table> per definire le righe delle
+tabelle
+- L’elemento <td>, (<th>) per i nomi dei
+campi della tabella, si utilizza per
+rappresentare le colonne.-->
+<br>
+<!--- L’attributo colspan, utilizzato per un
+elemento <td> o <th> consente di unire
+2 o più celle tra di loro.
+- L’attributo rowspan, utilizzato per un
+elemento <td> o <th> consente di unire
+più colonne tra di loro tra in verticale.-->
+<table class="table2">
+    <tr>
+        <th colspan="2">th1</th>
+        <th>th2</th>
+        <th>th3</th>
+    </tr>
+    <tr>
+        <td>td1</td>
+        <td>td2</td>
+        <td>td3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">td1</td>
+        <td>td2</td>
+        <td>td3</td>
+    </tr>
+    <tr>
+        <td>td1</td>
+        <td>td2</td>
+        <td>td3</td>
+    </tr>
+</table>
+<br>
+<!--Per aggiungere un bordo, usa la borderproprietà CSS su table, th, e td elementi:-->
+<table id="tablebordo">
+    <tr>
+        <th>th1</th>
+        <th>th2</th>
+        <th>th3</th>
+    </tr>
+    <tr>
+        <td>td1</td>
+        <td>td2</td>
+        <td>td3</td>
+    </tr>
+    <tr>
+        <td>td1</td>
+        <td>td2</td>
+        <td>td3</td>
+    </tr>
+    <tr>
+        <td>td1</td>
+        <td>td2</td>
+        <td>td3</td>
+    </tr>
+</table>
+<hr>
+<form method="get" action="ESEMPIOTAG.html">
+    <input type="email">
+    <input type="date">
+    <input type="text">
+    <input type="submit">
+</form>
+<!--- Fino a questo momento ci siamo occupati di elementi utilizzati per visualizzare le
+informazioni trasmesse dal server verso il client
+- Con i form è possibile fare il contrario, cioè inviare delle informazioni al server.
+- Un <form> è un elemento html che consente di creare una “sezione” contenente controlli
+(altri elementi html) interattivi che consentono l’invio di informazioni al server.
+- L’elemento <form> ha 2 attributi indispensabili che bisogna valorizzare per
+specificare come e a chi le informazioni debbano essere inviate:
+- COME: method (uno dei metodi HTTP per la trasmissione dati. I più comuni: get, post)
+- CHI: action
+- All’interno della sezione form devono essere
+specificati gli elementi di input necessari per
+raccogliere i dati da trasmettere.
+- L’elemento <input> è uno di quelli utilizzati
+per questo scopo.
+- Attraverso l’attributo type è possibile
+specificare il tipo di input che si intende
+utilizzare-->
+
+<hr>
+
+<select name="boh" id="1">
+    <option value="one">One</option>
+    <option value="two">Two</option>
+    <option value="trhee">Trhee</option>
+</select>
+
+<!--L’elemento <select> fornisce un menù di opzioni tra le quali l’utente può
+    scegliere.
+    - Attributi:
+    - size (definisce quanti elementi sono selezionabili)
+    - multiple (consente di selezionare più elementi)
+    - Contiene più elementi di tipo <option>. Può avere i seguenti attributi
+        - value (il valore/dato dell’opzione)
+        - selected (fa in modo che l’opzione si presenti come selected-->
+<hr>
+<textarea name="message" style="width: 100px; height: 100px">
+    Default Content
+</textarea>
+<!--textarea è l’elemento che consente di immettere testo libero all’utente.
+- Gli attributi di textarea
+- name (serve a contraddistinguere l’input nel set di dati inviati al server)
+- style (come per gli altri elementi.. può essere utilizzato per settare larghezza/width e
+altezza/height dell’area di testo-->
+<hr>
+<form id="mioform">
+    <input type="text" pattern="[a-z,A-Z,0-9">
+    <button type="submit">Submit</button>
+</form>
+<div>
+    <button type="reset" form="mioform"> Reset</button>
+</div>
+<!--button è l’elemento che permette di creare pulsanti (multi purpose). Quindi a differenza
+    dell’input type submit o reset (che fanno solo submit o reset del form), a button si può dire di
+    fare ciascuna di queste cose (o nessuna).
+    - L’attributo type (consente di specificare il compito del button) / submit / reset / button
+    - Quando il button è creato con l’attributo button non fa niente.. il suo compito verrà
+        assegnato tramite Javascript attraverso il binding all’evento onClick.
+        - Attraverso l’attributo form in cui specifico l’id di un form il button è applicato (come submit
+            o reset) al form indicato.
+            - *In questo modo il button può essere definito anche in un’area diversa da quella definita da form
+            L’attributo pattern permette di specificare una “regular expression” utile ai fini della
+validazione su un elemento input.
+- Le “regular expressions” sono espressioni utilizzate appunto per esprimere pattern di
+ricerca su un testo:
+- Ad esempio l’espressione [a-z,A-Z,0-9] ricerca nel testo caratteri che vanno dalla a alla z minuscole o
+maiuscole, oppure caratteri che rappresentano un numero da 0 a 9.
+- Una risorsa interessante per cominciare con le regexp -->
+<hr>
+
+<form>
+    <fieldset>
+        <legend>scegli il tuo monstro preferito</legend>
+        <input type="radio" id="kraken" name="monster">
+        <label for="kraken">Kraken</label><br>
+        <input type="radio" id="drago" name="monster">
+        <label for="drago">Drago</label><br>
+        <input type="radio" id="lupomannaro" name="monster">
+        <label for="lupomannaro">Lupomannaro</label><br>
+    </fieldset>
+</form>
+<!--fieldset è un elemento utilizzato per raggruppare tra di loro diversi elementi
+    input, come come labels, correlati tra di loro
+    <legend> in un <fieldset> consente di specificare una spiega, o un titolo per il
+raggruppamento-->
+<hr>
+<form>
+    <label for="ice-cream-choise">Ice Cream Choise</label>
+    <input list="ice-cream-flawors" id="ice-cream-choise" name="ice-cream-choise">
+    <datalist id="ice-cream-flawors">
+        <option value="chocolat"></option>
+        <option value="coconat"></option>
+        <option value="mint"></option>
+        <option value="strawberry"></option>
+        <option value="vanilla"></option>
+    </datalist>
+</form>
+<!--Come abbiamo visto la versione 5 di HTML ha introdotto diversi nuovi attributi
+per i form, che ci permettono di essere più specifici nell’acquisizione dati.
+- <datalist> e <output> sono due nuovi elementi
+    - <datalist> è un elemento che contiene un set di option (come select), ma
+        consente all’utente di specificare eventualmente un valore con testo libero-->
+<hr>
+<div class="container">
+<div id="inner10">
+    left
+</div>
+<div id="inner11">
+   right
+</div>
+</div>
+</body>
+</html>

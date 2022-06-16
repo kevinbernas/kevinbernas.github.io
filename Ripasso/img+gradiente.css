@@ -1,0 +1,16 @@
+div{
+    box-sizing: border-box;
+    background-image: url(../Assets/totti-11551050973fbfcyyazgb.png), linear-gradient(red,orange, yellow);
+    border: solid black;
+
+}
+div.container{
+    box-sizing: border-box;
+    width: 840px;
+    height: 859px;
+    padding:80px;
+   margin-top: 200px;
+}
+h1{
+    float: left;
+}

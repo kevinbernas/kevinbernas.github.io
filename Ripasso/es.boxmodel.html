@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float</title>
+    <style>
+
+
+        .container{
+            width: 600px;
+            padding: 10px 10px 2px 10px;
+            margin: 0 auto;
+            background-color: antiquewhite;
+        }
+        section {
+            margin-bottom: 10px;
+            border: 1px dotted #000;
+        }
+        article{
+            background-color: green;
+        }
+        aside{
+            background-color: yellow;
+        }
+
+
+        /* FLOAT */
+        /* 1 SEMPRE PER MODIFICARE IL BOX SIZING MODEL!!!! */
+        :root{
+            box-sizing: border-box;
+        }
+
+        *, ::after, ::before{
+            box-sizing: inherit;
+        }
+
+        /* 2 DEFINISCI CIO' CHE VUOI CHE SIA FLOAT*/
+        article, aside{
+            float: left;
+            padding: 10px;
+            margin: 0 10px;
+            height: 200px;
+        }
+
+        /* 3 APPLICHI LE DIMENSIONI IN MODO CHE LA SOMMA DEGLI ELEMENTI SIA 100% */
+        article{
+            /*  3.1 USI QUESTO CALC se i tuoi elementi float hanno del margine */
+            width: calc(70% - (10px * 2)); /* ricorda che: margine * il numero di lati che hanno un margine.. max 2 lati */
+        }
+        aside{
+            width: calc(30% - (10px * 2));
+        }
+
+        /* 4 CLEARFIX!!!! DA USARE SEMPRE CON LAYOUT IN FLOAT | applicato al contenitore degli elementi float */
+        section::after{
+            clear: both;
+            display: block;
+            content: "";
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <section class="float1">
+        <article>
+            <h3>Art1</h3>
+            <div class="body">
+                semplice testo
+            </div>
+        </article>
+        <aside>
+            sidebar
+        </aside>
+    </section>
+    <section class="float2">
+        <aside>
+            sidebar
+        </aside>
+        <article>
+            <h3>Art1</h3>
+            <div class="body">
+                semplice testo
+            </div>
+        </article>
+    </section>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+</body>
+</html>

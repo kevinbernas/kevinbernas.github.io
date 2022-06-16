@@ -1,0 +1,60 @@
+root{
+    box-sizing: border-box;
+}
+
+::before, ::after{
+box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    border: solid black 1px;
+    display: flex;/*per rendere un container flex*/
+    flex-direction: row;
+
+}
+div:nth-child(even), div:nth-child(odd){
+    background-color: #ccc;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.logo,
+.menu,
+.cta{
+    min-width: 100px;
+    border: 1px solid red;
+}
+.menu ul {
+    padding: 0;
+    list-style-type: none;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    padding: 10px;
+    display: block;
+}
+.item {
+    background-color: ivory;
+    flex-basis: 20%;
+}
+
+@media (max-width: 767px) {
+    div:nth-child(even), div:nth-child(odd){
+        flex-basis: 50%;
+    }
+}
+
+/*questa media query serve per far in modo che se l'utente sta con schermi piu piccoli in questo caso uno smartphone le colonne degli item verranno predisposte come gli si indica*/

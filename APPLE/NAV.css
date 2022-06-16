@@ -1,0 +1,10 @@
+nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: black solid 3px;
+    width: 100%;
+
+}

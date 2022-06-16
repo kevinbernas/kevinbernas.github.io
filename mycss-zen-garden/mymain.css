@@ -1,0 +1,48 @@
+
+header {
+    background-image: url(lotus-flower-5151674_1280.jpg);
+    width: 1280px;
+    height: 853px;
+    margin: 0 auto;
+    position: static;
+}
+
+h1 {
+    color: #7775BF;
+    margin: 0px;
+
+}
+
+h2 {
+    color: #F27289;
+    margin: 0px;
+}
+
+div #style1 {
+    position: relative;
+    left: 100px;
+    font-size: 50px;
+}
+
+.page-wrapper{
+    position:relative;
+    background-color: white;
+    width: 1280px;
+    top: 100% ;
+
+}
+a:link{
+    color: #7775BF;
+}
+a:hover{
+    color: #F27289;
+}
+header {
+    margin: 0 auto;
+    position: relative;
+    top: 100%;
+
+}
+body{
+    background: linear-gradient(#BF0449, #F272DD, #87CB5E, #E3AC6C,#522D7B);
+}
