@@ -1,0 +1,3 @@
+scrivo cartelle che vanno evitate al commit, serve per dire che non interessa al commit chiudere con (/)
+es.
+.idea/
